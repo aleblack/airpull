@@ -1,0 +1,13 @@
+# Copy to config.toml (same folder as the script, or ~/.config/airpull/config.toml)
+# Everything is optional, command line options win over this file.
+
+pilot = "Mario Rossi"
+glider = "Ozone Rush 5"
+glider_id = "NIL"
+
+out_dir = "flights"
+timezone = "Europe/Rome"    # used for file names and --list, times inside the IGC are always UTC
+# port = "/dev/cu.usbserial-XXXX"
+
+altitude = "qne"            # qne = pressure altitude ISA 1013.25, qnh = altitude with the QNH set on the instrument
+min_sats = 4                # fewer satellites than this and the fix is marked V instead of A
