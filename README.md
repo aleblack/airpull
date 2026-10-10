@@ -1,6 +1,6 @@
-# airpull
+# AirPull: Digifly flight downloader
 
-Downloads flights from a Digifly variometer over USB and saves them as IGC files. A replacement for the flight download of AirTools, which doesn't start on current macOS (Apple Silicon included) because it's a 32 bit app.
+Downloads flight tracks from Digifly variometers over USB and saves them as IGC files. An open source alternative to the flight download of Digifly AirTools, which doesn't start on current macOS (Apple Silicon included) because it's a 32 bit app.
 
 Unofficial, read the [disclaimer](#disclaimer) below before using it. The instrument must be in USB mode while it runs.
 
@@ -59,7 +59,7 @@ They run against a fake instrument, no device needed.
 
 ## Tested on
 
-Only a Digifly AirPro (it reports itself as `DIGIFLY AIR BT`, firmware 706a-019) on macOS. It should work with other Digifly models that speak the same protocol, but I haven't tried: other models and firmware versions may store flights differently. Linux and Windows are untested too. If you try it, a note on what worked or didn't is welcome.
+Only a Digifly AirPro (it reports itself as `DIGIFLY AIR BT`) on macOS, with firmware 706a-019 and 801b-019. It should work with other Digifly models that speak the same protocol, but I haven't tried: other models and firmware versions may store flights differently. Linux and Windows are untested too. If you try it, a note on what worked or didn't is welcome.
 
 ## Disclaimer
 
